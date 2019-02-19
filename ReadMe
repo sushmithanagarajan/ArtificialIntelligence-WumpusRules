@@ -1,0 +1,34 @@
+UTA ID: 1001556348
+Name: Sushmitha Nagarajan
+
+Programming Language used: JAVA
+
+These program contains two java files such as 
+
+LogicalExpression.java: It contains the code to get value for symbols, set the values for the symbols ,solve expressions and print expressions.
+CheckTrueFalse: This is a main program. These has 3 inputs to the function wumpusrules, knowledgebase file, statement. This helps to check if knowledge base entails alpha or not.
+
+How to Run the code?
+1. Check the path to the folder with the current directory/src
+3. Run the code using the following command:
+		java CheckTrueFalse wumpusrules kb statement
+
+
+Different outputs expected:
+
+KB : add (not S_4_2) with S_4_2 Statement File: Both True and False
+
+Statement File: M_3_2 = definitely true
+
+Statement File: P_1_1= definitely false
+
+Statement File: (not S_4_2)= Possibly true and False
+
+Citations & References:
+Credits :
+TT-Entails algorithm: Artificial Intelligence: A modern approach <Third Edition> - Stuart Rusell, Peter Norvig
+Psuedocode inspired from : https://github.com/miteshree/Artificial-Intelligence/
+Evaluvation and verification of expressions and thier validation inspired from : https://github.com/shilpashree/Artificial-Intelligence/
+Solve expressions: part of the code is used from https://github.com/arjunvekariyagithub/Wumpus-world
+
+
